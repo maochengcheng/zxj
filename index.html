@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link href="./css/idialog.css" rel="stylesheet" id="lhgdialoglink">
+
+	<title>筑想家装饰</title>
+	<meta name="keywords" content="筑想家装饰">
+	<meta name="description" content="筑想家装饰">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<link href="./css/base.css" rel="stylesheet">
+	<link href="./css/style.css" rel="stylesheet">
+	<link href="./css/animate.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/css.css">
+	<script src="./js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.SuperSlide.2.1.js"></script>
+	<script type="text/javascript" src="./js/jquery.form.min.js"></script>
+	<script type="text/javascript" src="./js/Validform_v5.3.2_min.js"></script>
+	<script type="text/javascript" src="./js/lhgdialog.js"></script>
+	<script type="text/javascript" src="./js/base.js"></script>
+	<script src="./js/wow.js" type="text/javascript"></script>
+	<script>
+            if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+                new WOW().init();
+            };
+	</script>
+</head>
+<body><div class="" style="left: 0px; top: 0px; visibility: hidden; position: absolute;"><table class="ui_border"><tbody><tr><td class="ui_lt"></td><td class="ui_t"></td><td class="ui_rt"></td></tr><tr><td class="ui_l"></td><td class="ui_c"><div class="ui_inner"><table class="ui_dialog"><tbody><tr><td colspan="2"><div class="ui_title_bar"><div class="ui_title" unselectable="on" style="cursor: move;"></div><div class="ui_title_buttons"><a class="ui_min" href="javascript:void(0);" title="最小化" style="display: inline-block;"><b class="ui_min_b"></b></a><a class="ui_max" href="javascript:void(0);" title="最大化" style="display: inline-block;"><b class="ui_max_b"></b></a><a class="ui_res" href="javascript:void(0);" title="还原"><b class="ui_res_b"></b><b class="ui_res_t"></b></a><a class="ui_close" href="javascript:void(0);" title="关闭(esc键)" style="display: inline-block;">×</a></div></div></td></tr><tr><td class="ui_icon" style="display: none;"></td><td class="ui_main" style="width: auto; height: auto;"><div class="ui_content" style="padding: 10px;"></div></td></tr><tr><td colspan="2"><div class="ui_buttons" style="display: none;"></div></td></tr></tbody></table></div></td><td class="ui_r"></td></tr><tr><td class="ui_lb"></td><td class="ui_b"></td><td class="ui_rb" style="cursor: se-resize;"></td></tr></tbody></table></div><a id="gotop" class="gotop" href="./index.html#" title="返回顶部" onfocus="this.blur()" onclick="window.scrollTo(0,0);" style="display: none;"></a>
+<!-- header -->
+<header class="wrapbox header-fixed">
+	<div class="wrap clearfix">
+		<div class="logo">
+			<a href="./index.html">
+				<img src="./images/logo.png" alt="">
+			</a>
+		</div>
+		<div class="navBar">
+			<ul class="nav clearfix">
+				<li id="m1" class="m on">
+					<h3><a href="./index.html">首页</a></h3>
+				</li>
+				<li id="m2" class="m">
+					<h3><a href="./about.html">关于我们</a></h3>
+					<ul class="sub">
+						<li><a href="./about.html">公司简介</a></li>
+						<li><a href="./org.html">组织架构</a></li>
+						<li><a href="./develop.html">发展历程</a></li>
+						<li><a href="./ryzz.html">资质荣誉</a></li>
+					</ul>
+				</li>
+				<li id="m3" class="m">
+					<h3><a href="goods.html">服务项目</a></h3>
+					<ul class="sub">
+
+						<li><a href="goods1.html">精装房阳台改造</a></li>
+
+						<li><a href="goods2.html">全屋水电改造</a></li>
+
+
+
+					</ul>
+				</li>
+				<li id="m4" class="m">
+					<h3><a href="case.html">成功案例</a></h3>
+				</li>
+				<li id="m5" class="m">
+					<h3><a href="news.html">新闻资讯</a></h3>
+					<ul class="sub">
+
+						<li><a href="./news1.html">公司新闻</a></li>
+
+						<li><a href="news2.html">行业动态</a></li>
+
+					</ul>
+				</li>
+				<li id="m6" class="m">
+					<h3><a href="./contact.html">联系我们</a></h3>
+					<ul class="sub">
+						<li><a href="./feedback.html">客户留言</a></li>
+						<li><a href="./contact.html">找到我们</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+                    jQuery(".nav").slide({
+                        type:"menu", //效果类型
+                        titCell:".m", // 鼠标触发对象
+                        targetCell:".sub", // 效果对象，必须被titCell包含
+                        effect:"slideDown",//下拉效果
+                        delayTime:300, // 效果时间
+                        triggerTime:0, //鼠标延迟触发时间
+                        returnDefault:true  //返回默认状态
+                    });
+		</script>
+	</div>
+</header>
+<!-- banner -->
+<div class="header banner_wrapper wrapbox clearfix">
+	<div class="banner_wrap banner-txt wow clearfix animated" style="visibility: visible;">
+		<h1 class="wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">筑想家装饰团队为你服务</h1>
+		<h3 class="wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">把你的想法告诉我们 我们一起来实现它</h3>
+		<div class="banner_line wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">&nbsp;</div>
+		<div class="banner_tel"><p><i class="ico ico-tel"></i>13451930160</p></div>
+		<div class="banner_more wow flipInX" style="visibility: visible; animation-name: flipInX;"><a href="./contact.html">了解详情</a></div>
+	</div>
+	<div class="fullSlide">
+		<div class="bd">
+			<ul style="position: relative; width: 1309px; height: 796px;">
+
+				<li style="background: url(&quot;./images/bar/201801191420255459.jpg&quot;) center top no-repeat; position: absolute; width: 1309px; left: 0px; top: 0px;"><a href="./index.html"></a></li>
+
+				<li style="background: url(&quot;./images/bar/201801191420135232.jpg&quot;) center top no-repeat; position: absolute; width: 1309px; left: 0px; top: 0px; display: none;"><a href="./index.html"></a></li>
+
+				<li style="background: url(&quot;./images/bar/201801191420040996.jpg&quot;) center top no-repeat; position: absolute; width: 1309px; left: 0px; top: 0px; display: none;"><a href="./index.html"></a></li>
+
+			</ul>
+		</div>
+		<div class="hd"><ul><li class="on">1</li><li>2</li><li>3</li></ul></div>
+	</div>
+	<script type="text/javascript">
+            jQuery(".fullSlide").slide({ titCell:".hd ul", interTime:3000, mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click" });
+	</script>
+</div>
+<!-- service -->
+<div class="wrap service mt50 mb50 wow fadeInDown clearfix" style="visibility: hidden; animation-name: none;">
+	<div class="service_tit mb50">
+		<p>01</p>
+		<h3>我们能为您做什么</h3>
+	</div>
+	<div class="service_con">
+
+		<dl class="left wow fadeInRight" style="visibility: hidden; animation-name: none;">
+			<a href="goods1.html">
+				<dt>
+					<img src="images/page/yangtai/yangtai.jpg" alt="">
+				</dt>
+				<dd>
+					<h4>精装房阳台改造</h4>
+					<p>
+						◆亲爱的你还在苦恼怎样改造阳台吗？看完这一篇，帮你解除烦恼<br>
+1、阳台变身洗衣房
+这种阳台柜是最常见也是最受欢迎的一种设计。
+2、阳台变身休闲室
+3、阳台变身小花园
+4、阳台变身书房
+5、阳台变身小西厨
+6、阳台变身健身区
+					
+					</p>
+				</dd>
+			</a>
+		</dl>
+
+		<dl class="left wow fadeInLeft" style="visibility: hidden; animation-name: none;">
+			<a href="goods2.html">
+				<dt>
+					<img src="images/page/shuidian/shuidian001.jpg" alt="">
+				</dt>
+				<dd>
+					<h4>全屋水电改造</h4>
+					<p>
+						精装房阳台改造之——水电改造你做对了吗？<br>
+					◆阳台水电改造分为两个阶段：
+		▶︎一个是前期：预埋阶段
+		▶︎一个是后期：安装插座面板和水龙头
+		◆那么水电改造的过程中有哪些要注意的呢？
+		1️⃣电源线必须要线管走，以防后期出现电源线的破损和短路，这样可以进行更换。且线管不能有破损，因为要有水泥砂浆进行封线管，以防水泥砂浆顺着破损处陷入管道内。
+							</p>
+				</dd>
+			</a>
+		</dl>
+
+	
+
+		<!--<dl class="left wow fadeInLeft" style="visibility: hidden; animation-name: none;">
+			<a href="goods4.html">
+				<dt>
+					<img src="images/page/201801191422280559.jpg" alt="">
+				</dt>
+				<dd>
+					<h4>服务项目四</h4>
+					<p>该模板是经过精心设计优化的，网站前端DIV+CSS，代码精简，可一键生成纯静态HTML页面，加载速度更快，有利于SEO，容易被搜索引擎抓…</p>
+				</dd>
+			</a>
+		</dl>-->
+
+
+
+
+	</div>
+</div>
+<!-- about -->
+<div class="wrapbox about mb50 wow fadeInDown clearfix" style="visibility: hidden; animation-name: none;">
+	<div class="wrap clearfix">
+		<div class="about_img left wow fadeInLeft" style="visibility: hidden; animation-name: none;">
+			<img src="images/page/201801191435173509.jpg" alt="">
+		</div>
+		<div class="about_con right wow fadeInRight" style="visibility: hidden; animation-name: none;">
+			<div class="about_tit mb50">
+				<p>02</p>
+				<h3>我们是谁</h3>
+			</div>
+			<div class="about_content">
+				【南京筑想家装饰】从事精装房全屋定制，阳台改造，等整体软装全案设计。产品丰富，有着8年的施工经验。专注精装房的整体改造工程。公司有着完善的服务体系：销售、客服、管家、工地巡查等，组成了一支高效率执行能力强的团队。是目前南京第一家在知乎，小红书等各大网络平台发表文章，并有着很高人气的企业。本着以客户为主，打造客户满意度最高的企业。
+				<a href="./about.html">【 查看详情 】</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- advantage -->
+<div class="wrapbox advantage mb50 wow fadeInDown clearfix" style="visibility: hidden; animation-name: none;">
+	<div class="advantage_tit mb50">
+		<p>03</p>
+		<h3>我们的优势</h3>
+	</div>
+	<div class="adv_wrap">
+		<div class="wrap">
+
+			<div class="adv_con01 left wow flipInY" style="visibility: hidden; animation-name: none;">
+				<div class="adv_con01_txt">
+					<h3>专业优势</h3>
+					<span>PROFESSIONAL ADVANTAGE</span>
+					<p><span style="color:#666666;font-family:&quot;font-size:14px;background-color:#FAFAFA;">正规的公司，我们有正规的办公地点，有完善的工人管理制度。售后无忧。</span></p>
+				</div>
+				<div class="adv_con01_img">
+					<img src="images/page/201801191135545223.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="adv_con01 left wow flipInY" style="visibility: hidden; animation-name: none;">
+				<div class="adv_con01_img">
+					<img src="images/page/201801191136210418.jpg" alt="">
+				</div>
+				<div class="adv_con01_txt">
+					<h3>团队优势</h3>
+					<span>TEAM ADVANTAGE</span>
+					<p><span style="color:#666666;font-family:&quot;font-size:14px;background-color:#FAFAFA;">服务体系的完善，筑想家每一个改造项目施工之前都会把施工标准发到群里。让您主动能够看得到。</span></p>
+				</div>
+			</div>
+
+			<div class="adv_con01 left wow flipInY" style="visibility: hidden; animation-name: none;">
+				<div class="adv_con01_txt">
+					<h3>资源优势</h3>
+					<span>RESOURCE ADVANTAGE</span>
+					<p><span style="color:#666666;font-family:&quot;font-size:14px;background-color:#FAFAFA;">工人素质:从保护，拆除，水电，瓦工，吊顶，所有的工人都不允许在工地抽烟。</span></p>
+				</div>
+				<div class="adv_con01_img">
+					<img src="images/page/201801191136337575.jpg" alt="">
+				</div>
+			</div>
+
+
+
+		</div>
+	</div>
+</div>
+<!-- case -->
+<div class="case mb50 wow fadeInUp clearfix" style="visibility: hidden; animation-name: none;">
+	<div class="case_tit mb50">
+		<p>04</p>
+		<h3>成功案例</h3>
+	</div>
+	<div class="case_wrap">
+		<div class="picScroll">
+			<div class="tempWrap" style="overflow:hidden; position:relative; width:1240px">
+				<ul id="tempWrap" style="width: 1550px; left: 0px; position: relative; overflow: hidden; padding: 0px; margin: 0px;"></ul>
+			</div>
+			<a class="prev prevStop"></a>
+			<a class="next"></a>
+		</div>
+		<script>
+                    $(document).ready(function(){
+                        $(".casecon").hover(function(){
+                            $(this).children().addClass("hover2");
+                        },function(){
+                            $(this).children().removeClass("hover2");
+                        });
+                    });
+		</script>
+	</div>
+</div>
+<!-- news -->
+<div class="news wrap mb50 wow fadeInUp clearfix" style="visibility: hidden; animation-name: none;">
+	<div class="case_tit mb50">
+		<p>05</p>
+		<h3>新闻资讯</h3>
+	</div>
+	<div class="news_con">
+
+		<div class="news_con_img left wow fadeInLeft" style="visibility: hidden; animation-name: none;">
+			<div class="news_con_imgwrap">
+				<img src="images/page/201801191443545394.jpg" width="522" height="289" alt="">
+			</div>
+			<div class="news_con_lefttxt">
+				<div class="left lefttime">
+					<p>25</p>
+					<span>2015-01</span>
+				</div>
+				<div class="right news_con_leftdetail">
+					<a href="./news_show.html">
+						<h5>热烈庆祝南京筑想家网站上线！</h5>
+						<p>制冷快报讯：中央空调内部风道、蒸发器、风机盘管等长期处于封闭阴暗状态，内部环境高温…</p>
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="news_con_list right wow fadeInRight" style="visibility: hidden; animation-name: none;">
+
+			<dl>
+				<dt>
+					<a href="./news_show.html">
+						<h5>一热烈庆祝南京筑想家网站上线！</h5>
+						<p>从事精装房全屋定制，阳台改造，等整体软装全案设计。产品丰富，有着8年的施工经验。</p>
+					</a>
+				</dt>
+				<dd>
+					<p>17</p>
+					<span>2020-11</span>
+				</dd>
+			</dl>
+
+
+			<ul class="clearfix">
+
+				<li><a href="./news_show.html">热烈庆祝南京筑想家网站上线！</a><span>2015-01-14</span></li>
+
+				<li><a href="./news_show.html">热烈庆祝南京筑想家网站上线！</a><span>2015-01-14</span></li>
+
+
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- contact -->
+<div class="contact wrapbox wow fadeInUp clearfix" style="visibility: hidden; animation-name: none;">
+	<div class="wrap contact_wrap">
+		<div class="left contact_txt">
+			<h3>联系我们</h3>
+			<div class="contact_txt_detail">
+				<p style="color:#ECECEC;font-family:&quot;font-size:14px;background-color:#FFFFFF;">
+					联系人：	刘经理
+				</p>
+				<p style="color:#ECECEC;font-family:&quot;font-size:14px;background-color:#FFFFFF;">
+					手机号码：	13451930160
+				</p>
+				<p style="color:#ECECEC;font-family:&quot;font-size:14px;background-color:#FFFFFF;">
+					联系邮箱： 98496881@qq.com
+				</p>
+				<p style="color:#ECECEC;font-family:&quot;font-size:14px;background-color:#FFFFFF;">
+					中心地址：	南京市建邺区海峡云谷科技孵化园2号楼1410
+				</p>
+				<br>
+			</div>
+			<div class="contact_tel mt50">
+				<p>热线电话：</p>
+				<h2>13451930160</h2>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+                    $(function () {
+                        //初始化发表评论表单
+                        AjaxInitForm('feedback_form', 'btnSubmit', 1);
+                    });
+		</script>
+		<div class="right homefeedback">
+			<form class="messages" method="post" id="feedback_form" name="feedback_form" url="webCc3Controller.do?contact_doAdd">
+				<div class="messlist">
+					<label>姓名:</label>
+					<input type="text" placeholder="" name="name" id="name" class="inputcontrol">
+
+				</div>
+				<div class="messlist">
+					<label>电话：</label>
+					<input type="text" placeholder="" name="mobilePhone" id="mobilePhone">
+					<div class="clear"></div>
+				</div>
+				<div class="messlist textareas">
+					<label>内容:</label>
+					<textarea placeholder="" name="content" id="content"></textarea>
+					<div class="clear"></div>
+				</div>
+				<div class="messsub">
+					<input type="submit" value="提交" onclick="send()" style="background:#076aef;color:#fff;
+			      	border-radius:3px;">
+				</div>
+			</form>
+
+		</div>
+	</div>
+</div>
+<!-- footer -->
+<div class="wrapbox footer wow fadeInUp clearfix" style="visibility: hidden; animation-name: none;">
+	<div class="wrap footer_wrap">
+		<p>Copyright © 2019-2020 南京筑想家装饰 版权所有     </p>
+		<p><a href="#">传成建站</a></p>
+
+	</div>
+</div>
+<script>
+    //窗体滚动事件特效
+    $(window).scroll(function(){
+        headerInit();
+    });
+   localStorage.setItem("cc_url","http://127.0.0.1:8080/jeecg/")
+    function headerInit(){
+        if($(this).scrollTop()>0){
+            $("body").addClass("fixed-header-on");
+        }else
+        {
+            $("body").removeClass("fixed-header-on");
+        }
+    };
+    headerInit();
+
+    function initWrap() {
+
+        // 初始化获取数据
+        function getDate(callback) {
+            res = [
+                {
+                    title: '1',
+                    desc: '一家集互联网信息服务及通信增值业务软硬件的研发与集成于一体的综合性网络科技企业',
+                    image: ''
+                },
+                {
+                    title: '2',
+                    desc: '一家集互联网信息服务及通信增值业务软硬件的研发与集成于一体的综合性网络科技企业',
+                    image: ''
+                },
+                {
+                    title: '3',
+                    desc: '一家集互联网信息服务及通信增值业务软硬件的研发与集成于一体的综合性网络科技企业',
+                    image: ''
+                },
+                {
+                    title: '4',
+                    desc: '一家集互联网信息服务及通信增值业务软硬件的研发与集成于一体的综合性网络科技企业',
+                    image: ''
+                },
+                {
+                    title: '5',
+                    desc: '一家集互联网信息服务及通信增值业务软硬件的研发与集成于一体的综合性网络科技企业',
+                    image: ''
+                },
+                {
+                    title: '6',
+                    desc: '一家集互联网信息服务及通信增值业务软硬件的研发与集成于一体的综合性网络科技企业',
+                    image: ''
+                }
+            ];
+            callback(res);
+        }
+
+        // 生成Li标签
+        function getLi(data) {
+            return $('<li class="casecon" style="float: left; width: 280px;"> ' +
+                '<a href="case_show.html"><img src="images/page/201801191430271503.jpg"></a> ' +
+                '<a href="case_show.html" class="case_txt"> ' +
+                '<h4>' + data.title + '</h4> ' +
+                '<div class="line2"></div> ' +
+                '<p>' + data.desc + '</p> ' +
+                '</a> ' +
+                '</li>');
+        }
+
+        getDate(function (res) {
+            var contain = $('#tempWrap');
+            $.each(res, function (index, dataItem) {
+                var _li = getLi(dataItem);
+                contain.append(_li);
+            })
+            $(".picScroll").slide({ mainCell: "ul", autoPlay: true, effect: "left", vis: 4, scroll: 1, autoPage: true, pnLoop: false });
+        });
+    }
+
+    initWrap();
+</script>
+
+</body></html>
